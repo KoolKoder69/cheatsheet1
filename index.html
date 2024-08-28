@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary and Hexadecimal Cheat Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Binary and Hexadecimal Cheat Sheet</h1>
+        <nav>
+            <ul>
+                <li><a href="#binary">Binary Cheat Sheet</a></li>
+                <li><a href="#hexadecimal">Hexadecimal Cheat Sheet</a></li>
+                <li><a href="#conversion-tools">Conversion Tools</a></li>
+                <li><a href="#resources">References & Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="binary">
+            <h2>Binary Cheat Sheet</h2>
+            <p>Learn about binary numbers and how to convert between binary and decimal.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Decimal</th>
+                        <th>Binary</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example rows -->
+                    <tr><td>0</td><td>0000</td></tr>
+                    <tr><td>1</td><td>0001</td></tr>
+                    <tr><td>2</td><td>0010</td></tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="hexadecimal">
+            <h2>Hexadecimal Cheat Sheet</h2>
+            <p>Learn about hexadecimal numbers and how to convert between hexadecimal and decimal.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Decimal</th>
+                        <th>Hexadecimal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example rows -->
+                    <tr><td>0</td><td>0x0</td></tr>
+                    <tr><td>10</td><td>0xA</td></tr>
+                    <tr><td>15</td><td>0xF</td></tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </section>
+
+        <section id="conversion-tools">
+            <h2>Conversion Tools</h2>
+            <form id="conversion-form">
+                <label for="decimal">Decimal:</label>
+                <input type="number" id="decimal" name="decimal">
+                <button type="button" onclick="convert()">Convert</button>
+            </form>
+            <div id="results">
+                <p>Binary: <span id="binary-result"></span></p>
+                <p>Hexadecimal: <span id="hexadecimal-result"></span></p>
+            </div>
+        </section>
+
+        <section id="resources">
+            <h2>References & Resources</h2>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Binary_number">Wikipedia: Binary Number</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Hexadecimal">Wikipedia: Hexadecimal</a></li>
+                <!-- Add more links as needed -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Binary & Hexadecimal Cheat Sheet</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
